@@ -108,9 +108,7 @@
 }
 
 .agreement {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex ();
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71px;

@@ -68,14 +68,12 @@
     width: 24px;
     height: 24px;
     margin-left: 10px;
-    background-image: url("./imges/icon\ send.svg");
+    background-image: url("/imges/icon\ send.svg");
   }
 }
 
 .send-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex ();
   width: 200px;
   margin-right: auto;
   margin-left: auto;

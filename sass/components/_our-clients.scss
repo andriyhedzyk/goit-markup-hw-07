@@ -3,9 +3,7 @@
   padding-bottom: 94px;
 }
 .clients__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex ();
   width: 170px;
   height: 90px;
   border: 1px solid;

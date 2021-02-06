@@ -28,9 +28,7 @@
   align-items: center;
 }
 .projects-list {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 0px;
+  @extend %list;
   display: flex;
   justify-content: center;
 

@@ -24,9 +24,8 @@
   letter-spacing: 0.03em;
 }
 .team__list {
+  @extend %list;
   display: flex;
-  padding: 0px;
-  margin: 0px;
 }
 .team__item {
   height: 428px;
@@ -51,26 +50,20 @@
   list-style: none;
 }
 .actions-footer {
+  @extend %list;
   display: flex;
   justify-content: space-between;
-  padding: 0;
-  margin: 0;
   margin-top: 20px;
   width: 206px;
   height: 44px;
-  list-style: none;
 }
 .link > .link-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex ();
   width: 44px;
   height: 44px;
 }
 .link > .link-icon-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex ();
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);

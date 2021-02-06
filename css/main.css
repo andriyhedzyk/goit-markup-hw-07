@@ -1,3 +1,9 @@
+.work__list, .clients__list, .team__list, .actions-footer, .projects-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -18,6 +24,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+textarea {
+  resize: none;
 }
 
 .container {
@@ -227,8 +237,8 @@ ul {
 
 .hero {
   background-color: #c4c4c4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/imges/hero-img.jpg);
-  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/imges/hero-img.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../imges/hero-img.jpg);
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imges/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 200px;
@@ -377,8 +387,7 @@ ul {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 .features__list .features__item {
@@ -394,13 +403,13 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #f5f4fa;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -440,9 +449,6 @@ ul {
   display: -ms-flexbox;
   display: flex;
   width: 1170px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
 }
 
 .work__list .work__item, .clients__list .work__item {
@@ -508,8 +514,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px;
-  margin: 0px;
 }
 
 .team__item {
@@ -546,12 +550,9 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0;
-  margin: 0;
   margin-top: 20px;
   width: 206px;
   height: 44px;
-  list-style: none;
 }
 
 .link > .link-icon {
@@ -828,9 +829,6 @@ ul {
 }
 
 .projects-list {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1075,12 +1073,12 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.71px;
