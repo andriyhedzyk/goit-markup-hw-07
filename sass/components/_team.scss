@@ -76,7 +76,7 @@
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color $timing-function;
 }
 
 .link > .link-icon:hover,
@@ -87,7 +87,7 @@
 }
 .link > .link-icon {
   color: #afb1b8;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color $timing-function;
 }
 
 .link > .link-icon > :hover,
@@ -104,7 +104,7 @@
 .link > .link-icon-footer {
   color: #afb1b8;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color $timing-function;
 }
 
 .link > .link-icon-footer > :hover,

@@ -7,13 +7,13 @@
   background-color: rgba(65, 71, 71, 0.5);
 
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity $timing-function;
 }
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity $timing-function;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.9);
@@ -29,7 +29,7 @@
   background-color: $background-color;
 
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform $timing-function;
 }
 .modal__title {
   font-size: 20px;
@@ -51,7 +51,7 @@
   background-color: $background-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all $timing-function;
   &:hover,
   &:focus {
   fill: $accent-text-color;
@@ -91,7 +91,7 @@
 }
 .form__field input:hover {
   border-color: $accent-text-color;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color $timing-function;
 }
 .form-comment {
   padding-top: 12px;
@@ -104,7 +104,7 @@
 }
 .form-comment:hover {
   border-color: $accent-text-color;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color $timing-function;
 }
 
 .agreement {
@@ -124,7 +124,7 @@
 .form__field:hover .icon-name,
 .form__field:focus-within .icon-name {
   fill: $accent-text-color;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill $timing-function;
 }
 
 .policy {
