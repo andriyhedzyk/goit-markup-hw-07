@@ -1145,11 +1145,8 @@ textarea {
   border-color: #2196f3;
 }
 
-.checkbox:focus-within + .check-icon {
-  background-color: #2196f3;
-  background-image: url("/imges/icon check.svg");
-  background-size: contain;
-  background-origin: border-box;
+.checkbox:focus + .check-icon {
   border-color: #2196f3;
+  outline: none;
 }
 /*# sourceMappingURL=main.css.map */
