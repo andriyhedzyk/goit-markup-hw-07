@@ -158,9 +158,6 @@
   border-color: $accent-text-color;
 }
 .checkbox:focus + .check-icon {
-  background-color: $accent-text-color;
-  background-image: url("../../imges/icon\ check.svg");
-  background-size: contain;
-  background-origin: border-box;
-  border-color: $accent-text-color;
+border-color: $accent-text-color;
+  outline: none;
 }
